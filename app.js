@@ -4,7 +4,7 @@ var port = 1337;
 
 var urlToShorten = process.argv[2];
 var server = http.createServer(requestHandler);
-var key = "AIzaSyARJMp3s0j5xnBqgoofZYSUwu-7yx_7whE"
+var key = [Insert key here]
 var url = "https://www.googleapis.com/urlshortener/v1/url?key=" + key;
 // var payload = {"longUrl": urlToShorten}
 
